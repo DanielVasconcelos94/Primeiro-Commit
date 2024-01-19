@@ -1,0 +1,129 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: normal;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-login {
+    border-radius: 20.5px;
+    background-color: #665ae1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.we-care-logo {
+    width: 470px;
+    height: auto;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 45px;
+    font-weight: 500; 
+    line-height: 71px;
+}
+
+p {
+    color: #848484;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 550px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.button-explore {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 200px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(3, 0, 0, 0.25));
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    header {
+        display: none;
+    }
+    
+    p {
+        display: none;
+    }
+
+    main {
+        position: static;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .we-care-logo {
+        position: static;
+        display: block;
+        margin: 150px auto 30px;
+        width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        width: 232px;
+        height: 52px;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center ;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 27px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
